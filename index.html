@@ -5,6 +5,11 @@
     <title>my personal page</title>
     <link rel="SHORTCUT ICON" href="image/ico.ico" />
     <link rel="icon" href="image/ico.ico" />
+    <link href="https://assets-cdn.github.com/assets/frameworks-2d635ad8ba43f32e07aa1fd713d692eff9a2e78dcd63daa5b580c38b36df3fdb.css" rel="stylesheet" media="all" crossorigin="anonymous">
+    <script type="text/javascript">
+        XMLHttp = new XMLHttpRequest();
+    </script>
+    <script src="js/getmd.js"></script>
 </head>
 
 <body>
@@ -13,22 +18,44 @@
         <a>blog</a>
         <a>repository</a>
     </nav>
-    
-    <main>
-        <section>
-            <article>
-                <b>content</b>
-            </article>
+
+    <main id="main">
+        <section id="section_article">
         </section>
         <section>
-                <img src="image/logo.gif" />            
+            <img src="image/logo.gif" />
         </section>
     </main>
-    
+
     <footer>
         <h6 align=center>This web was written by <a href="https://github.com/Pythians">Pythians</a>
         <h5 align=center>&copy;<i> 2016 Pythians</i></h5>
     </footer>
+    
+    <script type="text/javascript">
+    get();
+    // function readSingleFile(e) {
+    //     var file = e.target.files[0];
+    //     if (!file) {
+    //         return;
+    //     }
+    //     var reader = new FileReader();
+    //     reader.onload = function(e) {
+    //         var contents = e.target.result;
+    //         displayContents(contents);
+    //     };
+    //     reader.readAsText(file);
+    // }
+    // function displayContents(contents) {
+    //     var element = document.getElementById('file-content');
+    //     console.log(contents)
+    //     element.innerHTML = contents;
+    // }
+        // var md = window.markdownit();
+        // var result = md.render("# markdownit-it rulezz!");
+        // console.log(result);
+    </script>
 </body>
+
 
 </html>
