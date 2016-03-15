@@ -6,9 +6,10 @@ function getMd(url) {
         XMLHttp.onreadystatechange = function() {
             if (XMLHttp.readyState == 4) {
                 if (XMLHttp.status == 200) {
-                    var s = XMLHttp.responseText.indexOf("<article")
-                    var e = XMLHttp.responseText.indexOf("</article>")
-                    document.getElementById("section_article").innerHTML = XMLHttp.responseText.slice(s, e + 10);
+                    // var s = XMLHttp.responseText.indexOf("<article")
+                    // var e = XMLHttp.responseText.indexOf("</article>")
+                    // document.getElementById("section_article").innerHTML = XMLHttp.responseText.slice(s, e + 10);
+                    document.getElementById("section_article").innerHTML = XMLHttp.responseText;
                 }
             }
         }
@@ -19,6 +20,6 @@ function getMd(url) {
 
 function get(params) {
     var url = "https://github.com/Pythians/Pythians.github.io/blob/master/README.md";
-    // url = "blogs/introducation.md"
+    url = "blogs/introducation.md"
     getMd(url);
 }
