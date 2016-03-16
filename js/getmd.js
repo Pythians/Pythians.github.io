@@ -6,9 +6,7 @@ function getMd(url) {
         XMLHttp.onreadystatechange = function() {
             if (XMLHttp.readyState == 4) {
                 if (XMLHttp.status == 200) {
-                    var md = window.markdownit();
-                    var result = md.render(XMLHttp.responseText);
-                    document.getElementById("main_article").innerHTML = result;
+                    setArticle(mdToHtml(XMLHttp.responseText));
                 }
             }
         }
@@ -17,8 +15,21 @@ function getMd(url) {
     }
 }
 
-function get(params) {
-    var url;
-    url = "blogs/introducation.md"
-    getMd(url);
+function mdToHtml(str) {
+    var md = window.markdownit();
+    return md.render(str)
+}
+
+function setArticle(str) {
+    document.getElementById("main_article").innerHTML = str
+}
+
+function getLocalMd(url) {
+    if ('string' === typeof(url)) {
+        getMd(url);
+    }else{
+        var str = '# welcome to my personal page  \n---  \nI am a game devlopment  \nVery *happy* to meet **you**';
+        setArticle(mdToHtml(str))
+    }
+
 }
