@@ -5,25 +5,32 @@
     <title>my personal page</title>
     <link rel="SHORTCUT ICON" href="images/ico.ico" />
     <link rel="icon" href="images/ico64.gif" />
-    <link href="https://assets-cdn.github.com/assets/frameworks-2d635ad8ba43f32e07aa1fd713d692eff9a2e78dcd63daa5b580c38b36df3fdb.css" rel="stylesheet" media="all" crossorigin="anonymous">
+    <!-- 代码高亮样式 -->
+    <link href="css/prettify.css" type="text/css" rel="stylesheet" />
     <script type="text/javascript">
-        XMLHttp = new XMLHttpRequest();
+        XMLHttp = new XMLHttpRequest(); // 添加全局对象
     </script>
-    <script src="js/getmd.js"></script>
-    <script src="js/markdown-it.min.js"></script>
+    <!-- 代码高亮工具 -->
+    <script type="text/javascript" src="js/prettify.js"></script>
+    <!-- md 文档转换工具 -->
+    <script type="text/javascript" src="js/markdown-it.min.js"></script>
+    <!-- 自定义工具 -->
+    <script type="text/javascript" src="js/getmd.js"></script>
 </head>
 
 <body>
-    <nav>
-        <a>home</a>
-        <a>blog</a>
-        <a>repository</a>
+    <nav class="nav">
+        <ul>
+            <li class="current"><a href="#">home</a></li>
+            <li><a href="#">blog</a></li>
+            <li><a href="#">repository</a></li>
+        </ul>
     </nav>
 
     <main id="main">
         <section id="main_section">
             <article id="main_article">
-                
+
             </article>
         </section>
         <section>
@@ -37,27 +44,7 @@
     </footer>
     
     <script type="text/javascript">
-    getLocalMd();
-    // function readSingleFile(e) {
-    //     var file = e.target.files[0];
-    //     if (!file) {
-    //         return;
-    //     }
-    //     var reader = new FileReader();
-    //     reader.onload = function(e) {
-    //         var contents = e.target.result;
-    //         displayContents(contents);
-    //     };
-    //     reader.readAsText(file);
-    // }
-    // function displayContents(contents) {
-    //     var element = document.getElementById('file-content');
-    //     console.log(contents)
-    //     element.innerHTML = contents;
-    // }
-        // var md = window.markdownit();
-        // var result = md.render("# markdownit-it rulezz!");
-        // console.log(result);
+    getLocalMd(); highlightCode();
     </script>
 </body>
 
