@@ -1,12 +1,14 @@
-// 获取网络中的 md 文件内容，转换内添加到文档中
-function getMd(url) {
-    url = url || ""
+// GET URL
+function getWithUrl(url,callback) {
+    if (!url) {
+        return
+    }
 
     if (XMLHttp) {
         XMLHttp.onreadystatechange = function() {
             if (XMLHttp.readyState == 4) {
                 if (XMLHttp.status == 200) {
-                    setArticle(mdToHtml(XMLHttp.responseText));
+                    callback(XMLHttp.responseText);
                 }
             }
         }
@@ -29,7 +31,9 @@ function setArticle(str) {
 
 function getLocalMd(url) {
     if ('string' === typeof (url)) {
-        getMd(url);
+        getWithUrl(url,function (str) {
+            setArticle(mdToHtml(str));
+        });
     } else {
         var str = '# welcome to my personal page  \n---  \nI am a game devlopment   \n```\n#include <stdio.h>\nint i=1;\n```\n  \nVery *happy* to meet **you**';
         setArticle(mdToHtml(str))
