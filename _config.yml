@@ -293,11 +293,11 @@ remote_theme: qwtel/hydejack@v8.4.0
 #   admins:              <id>
 
 # Used on index and about sites
-# social:
-#   name:                <firstname> <lastname>
-#   links:
-#     - https://twitter.com/<username>
-#     - https://github.com/<username>
+social:
+   name:                H K
+   links:
+     - https://twitter.com/S_E_A_N_K_
+     - https://github.com/Pythians/
 
 
 # Other Plugins
