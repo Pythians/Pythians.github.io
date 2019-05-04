@@ -1,9 +1,10 @@
 ---
 layout: post
 title: Example Content III
+tags: exp
 description: >
   A page showing Hydejack-specific markdown content.
-image: /assets/img/blog/example-content-iii.jpg
+image: /assets/img/1.jpg
 noindex: true
 ---
 
