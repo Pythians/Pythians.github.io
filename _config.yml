@@ -41,15 +41,15 @@ logo:                  /assets/icons/logo.gif
 
 # This should be the same author as first entry in `_data/authors.yml`.
 author:
-  name:                <firstname> <lastname>
-  email:               <mail@domain.tld>
+  name:                H K
+  email:               H-k_@outlook.com
   # Used by `jekyll-seo-tag`:
   # twitter:             <username>
 
 # Add links to the sidebar.
 menu:
   - title:             Blogs
-    url:               /example/
+    url:               /blogs/
   - title:             About
     url:               /about/
 
@@ -76,8 +76,9 @@ paginate_path:         /page-:num/
 # ========================================================================================
 
 # Sidebar image and theme color of the site.
-accent_image:          /assets/img/sidebar-bg.jpg
-accent_color:          rgb(79,177,186)
+accent_image:          /assets/img/bg.jpg
+accent_color:          rgb(129,40,190)
+# accent_color:          rgb(79,177,186)
 
 # This is used for the `theme-color` meta tag,
 # which changes the background color of the browser UI in certain browsers.
