@@ -52,6 +52,8 @@ author:
 menu:
   - title:             Blogs
     url:               /blogs/
+  - title:             Unity
+    url:               /blogs/
   - title:             About
     url:               /about/
 
