@@ -24,12 +24,10 @@ title:                 H·K
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
 description:           >
-  "黑猫(H·k) 的个人博客".
-  不明所以 **Hydejack** .
+  "H·k (黑猫)的个人博客"
 
 # A shorter description for the sidebar.
 tagline:               >
-  黑猫(H·k) 的个人博客    \n
   记录学习点滴，分享开发经验
 
 

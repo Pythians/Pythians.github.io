@@ -9,8 +9,8 @@ author1:
   # Used at the bottom of each page and at the top of the `about` layout
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
   about:             >  
-    **H·K**  
-    *[H-k_@outlook.com](mailto:h-k_@outlook.com)*
+    **H·K** (黑猫)的个人博客         
+    Email to me _[H-k_@outlook.com](mailto:h-k_@outlook.com)_
 
   # This photo will be used in the about section.
   picture:
@@ -25,8 +25,8 @@ author1:
   social:
     twitter:         S_E_A_N_K_
     github:          Pythians/
+    email:           h-k_@outlook.com
     # download:        <url>
-    # email:           <mail@domain.tld>
     # rss:             https://<url>/feed.xml
     # facebook:        <username>
     # google:          <number>
