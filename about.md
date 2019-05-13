@@ -24,4 +24,4 @@ image: /assets/img/t.jpg
 ---
 Find me on **[Github](https://github.com/Pythians)**  
 
-Email to me _[H-k_@outlook.com](mailto:h-k_@outlook.com_)_
+Email to me _[H-k_@outlook.com](mailto:h-k_@outlook.com)_
