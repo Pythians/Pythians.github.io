@@ -13,10 +13,11 @@ description: >
   sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 
 # You can show the description on the page by deleting this line:
-hide_description: false 
+hide_description: true 
 
 # TODO
-image: /assets/img/1.jpg
+image: /assets/img/t.jpg
 ---
 
-tttt
+Find me on [Github](https://github.com/Pythians)  
+Email to me [H-k_@outlook.com](mailto:h-k_@outlook.com)
