@@ -6,11 +6,11 @@ layout: list
 title: Unity
 
 # The name of the tag, used in a post's front matter (e.g. tags: [<slug>]).
-slug: untiy
+slug: Unity
 
 menu: true
 
 # (Optional) Write a short (~150 characters) description of this featured tag.
 description: >
-    Untiy 技术分享
+    Unity 技术分享
 ---

@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Uinty TableView 组件
-categories: [blogs,untiy]
-tags: [blogs,untiy]
+title: Unity TableView 组件
+categories: [blogs,Unity]
+tags: [blogs,Unity]
 description: >
   可复用内容的滚动组件
 image: /assets/img/2019-05/utv4.png
