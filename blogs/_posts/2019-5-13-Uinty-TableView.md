@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Uinty TableView 组件
-tags: blogs
+categories: [blogs,untiy]
+tags: [blogs,untiy]
 description: >
   可复用内容的滚动组件
 image: /assets/img/2019-05/utv4.png
