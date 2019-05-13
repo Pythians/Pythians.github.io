@@ -9,7 +9,7 @@ author1:
   # Used at the bottom of each page and at the top of the `about` layout
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
   about:             >  
-    [**H·K** (黑猫)的个人博客](https://pythians.github.io/about)
+    [**H·K** (黑猫)的个人博客](https://pythians.github.io/about/)
 
   # This photo will be used in the about section.
   picture:
