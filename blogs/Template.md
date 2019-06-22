@@ -1,7 +1,8 @@
 ---
 layout: post
 title: BlogName
-tags: blogs
+categories: [blogs]
+tags: [blogs]
 description: >
   A template blogs.
 image: /assets/img/t.jpg
