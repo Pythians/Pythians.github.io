@@ -4,12 +4,12 @@ title: ItemManager 道具管理器
 categories: [Unity]
 tags: [Unity]
 description: >
-  A template blogs.
+    道具管理器
 image: /assets/img/bg2.jpg
 noindex: false
 ---
 
-道具管理类，游戏内每个拥有道具的 Npc、建筑等都可以创建一个道具管理类来管理道具
+道具管理类，游戏内每个拥有道具的 Npc、建筑等都可以创建一个道具管理器来管理道具
 
 # 主要函数
 ---
