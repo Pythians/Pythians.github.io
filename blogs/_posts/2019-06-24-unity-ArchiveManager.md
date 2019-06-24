@@ -1,8 +1,8 @@
 ---
 layout: post
 title: 存档管理系统
-categories: [blogs]
-tags: [blogs]
+categories: [Unity]
+tags: [Unity]
 description: >
     ArchiveData 数据、ArchiveDataManager 管理器、PersistentDataManager 辅助方法
 image: /assets/img/2019-06/a.jpg
