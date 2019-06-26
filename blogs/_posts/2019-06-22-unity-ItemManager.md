@@ -11,6 +11,17 @@ noindex: false
 
 道具管理类，游戏内每个拥有道具的 Npc、建筑等都可以创建一个道具管理器来管理道具
 
+### 26/6 更新
+添加查找方法
+```c#
+/// <summary>
+/// 查找道具数据，如果管理器没有道具，返回一个 Num = 0 的配置道具数据；如果返回 null 则配置表没有这个 Id
+/// </summary>
+/// <param name="id">道具 Id</param>
+/// <returns>道具数据</returns>
+public Item FindItem(int id)
+```
+
 # 主要函数
 ---
 
@@ -71,6 +82,13 @@ public bool TransferTo(ItemManager to, int id, int num)
 /// <param name="num">数量</param>
 /// <returns>true 转移成功</returns>
 public bool TransferFrom(ItemManager from, int id, int num)
+
+/// <summary>
+/// 查找道具数据，如果管理器没有道具，返回一个 Num = 0 的配置道具数据；如果返回 null 则配置表没有这个 Id
+/// </summary>
+/// <param name="id">道具 Id</param>
+/// <returns>道具数据</returns>
+public Item FindItem(int id)
 
 /// <summary>
 /// 获取道具数据
