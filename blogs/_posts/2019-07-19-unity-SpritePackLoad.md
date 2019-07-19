@@ -9,7 +9,7 @@ image: /assets/img/2019-07/b.gif
 noindex: false
 ---
 
-Unity 图集打包和工作原理参考：[UGUI研究院之全面理解图集与使用](www.xuanyusong.com/archives/3304)  
+Unity 图集打包和工作原理参考：[UGUI研究院之全面理解图集与使用](http://www.xuanyusong.com/archives/3304)  
 本文基于上文中的技术处理，并有一些优化  
 
 测试发现问题： Unity 打包合集时不会检测文件是否相同，即同一张图片有不同名字的拷贝，会一起打包。尽量不要复制、多次导入同一资源  
