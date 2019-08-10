@@ -274,6 +274,12 @@ public class GameTimer
 
 ```c#
 /// <summary>
+/// 定时回调代理
+/// </summary>
+/// <param name="time">触发的时间</param>
+public delegate void ScheduleDelegate(CalendarTime time);
+
+/// <summary>
 /// 单次定时器
 /// </summary>
 /// <param name="name"></param>
