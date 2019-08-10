@@ -1,5 +1,6 @@
 ---
 layout: post
+title: 随机天气系统
 categories: [blogs,Unity]
 tags: [blogs,Unity]
 description: >
@@ -7,11 +8,9 @@ description: >
 image: /assets/img/2019_/b.gif
 noindex: false
 ---
-# 随机天气系统
-随机生成天气，昼夜变化事件
 
-[页内链接](#昼夜)
-
+* [天气](#天气)  
+* [昼夜](#昼夜)
 
 ### 天气
 游戏内天气有： 睛、雨、雷雨、云、雪、大雪六种，每个季节出出现的天气概率不同  
