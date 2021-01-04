@@ -14,10 +14,9 @@ noindex: false
 * [一点优化](#一点优化)
 * [一些思考](#一些思考)
 
-# 引言
+## 引言
 自定义`lua`元表，实现代理、延迟载入的加载器（Ps.需要[`lua`元表][1]相关知识）
-
-## 一个例子
+### 一个例子
 ```lua
 local mkProxy = function(path)
 	local instance = nil
@@ -41,8 +40,7 @@ end
 当调用`proxy`的字段时，进入`__index`或`__newindex`方法，检查`instance`，没有加载则`require`，然后返回调用的字段值  
 `proxy`的懒加载特性适合集中管理，在程序开始的地方，生成所有的代理，在实际用的地方加载真实数据，解决程序同时加载大量文件卡顿的问题  
 `__index`, `__newindex`也可以添加高级功能，实现访问控制、统计、缓存等等  
-
-## 一点优化
+### 一点优化
 多数情况下`proxy`都可以代替原表来使用，但`proxy`本质是个空表，`pairs`、`dump`、`debug`都是空的，开发不方便  
 在`Programming in Lua`第13章[Tracking Table Accesses][2]有这个问题的解决方法：`private key`指向原始`table`  
 `private key`是一个`local table`，外部拿不到  
@@ -97,7 +95,7 @@ local mkProxy = function(path, mt)
 	}, mt or mtRead)
 end
 ```
-## 一些思考
+### 一些思考
 * 安全  
 `private key`一般方法确实无法访问，但能被`pairs`遍历到，就能用`next`函数拿到`private key`和原始`table`  
 安全也是相对而言
