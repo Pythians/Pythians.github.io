@@ -4,7 +4,7 @@ title: Lua lazy loader
 categories: [blogs]
 tags: [blogs]
 description: >
-  A template blogs.
+  Lua 文件懒加载实现
 image: /assets/img/2020/a.gif
 noindex: false
 ---
