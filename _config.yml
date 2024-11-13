@@ -32,7 +32,7 @@ tagline:               >
 
 
 # A list of keywords for your blog
-keywords:              []
+keywords:              [Doc, UE, Unity]
 
 # A (square) logo for your site.
 # If provided, it will be shown at the top of the sidebar.
@@ -50,6 +50,8 @@ author:
 menu:
   - title:             Blogs
     url:               /blogs/
+  - title:             Unreal Engine
+    url:               /UE/
   - title:             Unity
     url:               /unity/
   - title:             About
