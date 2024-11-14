@@ -9,8 +9,8 @@ image: /assets/img/2024/va_T.png
 noindex: false
 ---
 
-* [Configuration and Usage](#Configuration and Usage)
-* [Configure Rules](#Configure Rules)
+* [Configuration and Usage](#Configuration-and-Usage)
+* [Configure Rules](#Configure-Rules)
 
 ## Configuration and Usage
 Follow the steps below  
