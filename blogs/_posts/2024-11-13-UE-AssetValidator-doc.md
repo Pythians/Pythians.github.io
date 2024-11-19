@@ -48,7 +48,8 @@ Follow the steps below
 - `Asset Class` decides which assets the rules apply to
 - `Name Format` Format of the asset name, whether it needs prefixes, suffixes, and contains special text  
 - `Criteria Entries` Define the properties and values that need to be validated(Click the plus sign to add)  
-  - `Attribute Name` Right click property, `Copy Intername Name`(Versions below UE5.5 may not have it)/ `Copy Display Name` ![Copy Attribute Name](/assets/img/2024/va_rc.png)
+  - `Attribute Name` Right click property, `Copy Intername Name`(Versions below UE5.5 may not have it)/ `Copy Display Name`  
+  - ![Copy Attribute Name](/assets/img/2024/va_rc.png)
   - `Values` A property can have multiple values, and you can add multiple entries. As long as one value matches, the validation will pass
     - `Value` A specific value used to compare with the asset's properties
     - `Warning` If selected, the validation will pass even if the above values are different, and it will output the following error message
