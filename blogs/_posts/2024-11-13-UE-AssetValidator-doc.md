@@ -45,7 +45,7 @@ Follow the steps below
     ![Validation results](/assets/img/2024/va_r.png)  
 ## Configure Rules
 ### Base rule  
-------
+
 - `Asset Class` decides which assets the rules apply to  
 - `Name Format` Format of the asset name, whether it needs prefixes, suffixes, and contains special text  
 - `Criteria Entries` Define the properties and values that need to be validated(Click the plus sign to add)  
@@ -55,7 +55,7 @@ Follow the steps below
     - `Warning` If selected, the validation will pass even if the above values are different, and it will output the following error message  
     - `Error Message` Error message for failed validation, optional  
 ### Advance  
-------
+
 - `Group Pattern` Regular expression for extracting group names from asset's name
 The regular expression needs to include parentheses () to define a capturing group.
 The capturing group will extract the content matched within the parentheses.  
