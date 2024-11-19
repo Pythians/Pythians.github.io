@@ -44,8 +44,7 @@ Follow the steps below
     - You may need to test several times to ensure the rule is correct
     ![Validation results](/assets/img/2024/va_r.png)  
 ## Configure Rules
-### Base rule
-
+### Base rule  
 - `Asset Class` decides which assets the rules apply to  
 - `Name Format` Format of the asset name, whether it needs prefixes, suffixes, and contains special text  
 - `Criteria Entries` Define the properties and values that need to be validated(Click the plus sign to add)  
@@ -54,12 +53,11 @@ Follow the steps below
     - `Value` A specific value used to compare with the asset's properties  
     - `Warning` If selected, the validation will pass even if the above values are different, and it will output the following error message  
     - `Error Message` Error message for failed validation, optional  
-### Advance
-
-`Group Pattern` Regular expression for extracting group names from asset's name
+### Advance  
+- `Group Pattern` Regular expression for extracting group names from asset's name
 The regular expression needs to include parentheses () to define a capturing group.
 The capturing group will extract the content matched within the parentheses.  
 Ps. [Capture Group][1]  
-`Group Value` With the group name, you can define the attribute values for the group. The format is the same as `Value`, but with a higher priority 
+- `Group Value` With the group name, you can define the attribute values for the group. The format is the same as `Value`, but with a higher priority 
 
 [1]:https://www.regexone.com/lesson/capturing_groups
