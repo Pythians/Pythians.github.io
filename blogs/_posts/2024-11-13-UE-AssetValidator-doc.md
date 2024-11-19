@@ -45,12 +45,21 @@ Follow the steps below
     ![Validation results](/assets/img/2024/va_r.png)  
 ## Configure Rules
 ### Base rule
-- `Asset Class` decides which assets the rules apply to
+
+- `Asset Class` decides which assets the rules apply to  
 - `Name Format` Format of the asset name, whether it needs prefixes, suffixes, and contains special text  
 - `Criteria Entries` Define the properties and values that need to be validated(Click the plus sign to add)  
-  - `Attribute Name` Right click property, **`Copy Intername Name`**_(Highly recommended, but UE versions below 5.5 may not have it)_ or `Copy Display Name` ![Copy Attribute Name](/assets/img/2024/va_rc.png)
-  - `Values` A property can have multiple values, and you can add multiple entries. As long as one value matches, the validation will pass
-    - `Value` A specific value used to compare with the asset's properties
-    - `Warning` If selected, the validation will pass even if the above values are different, and it will output the following error message
-    - `Error Message` Error message for failed validation, optional
+  - `Attribute Name` Right click property, **`Copy Intername Name`**_(Highly recommended, but UE versions below 5.5 may not have it)_ or `Copy Display Name` ![Copy Attribute Name](/assets/img/2024/va_rc.png)  
+  - `Values` A property can have multiple values, and you can add multiple entries. As long as one value matches, the validation will pass  
+    - `Value` A specific value used to compare with the asset's properties  
+    - `Warning` If selected, the validation will pass even if the above values are different, and it will output the following error message  
+    - `Error Message` Error message for failed validation, optional  
 ### Advance
+
+`Group Pattern` Regular expression for extracting group names from asset's name
+The regular expression needs to include parentheses () to define a capturing group.
+The capturing group will extract the content matched within the parentheses.  
+Ps. [Capture Group][1]  
+`Group Value` With the group name, you can define the attribute values for the group. The format is the same as `Value`, but with a higher priority 
+
+[1]:https://www.regexone.com/lesson/capturing_groups
