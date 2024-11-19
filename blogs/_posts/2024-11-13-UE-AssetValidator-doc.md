@@ -61,5 +61,6 @@ The regular expression needs to include parentheses () to define a capturing gro
 The capturing group will extract the content matched within the parentheses.  
 Ps. [Capture Group][1]  
 - `Group Value` With the group name, you can define the attribute values for the group. The format is the same as `Value`, but with a higher priority 
+![Group Value](/assets/img/2024/va_g.png)
 
 [1]:https://www.regexone.com/lesson/capturing_groups
